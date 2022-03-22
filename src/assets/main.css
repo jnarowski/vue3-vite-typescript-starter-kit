@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 129, /Users/jnarowski/Dev/spectora/src/spectora/app/assets/stylesheets/common.scss */
+.container {
+  flex: 1 1 100%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1400px;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  /* line 129, /Users/jnarowski/Dev/spectora/src/spectora/app/assets/stylesheets/common.scss */
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 129, /Users/jnarowski/Dev/spectora/src/spectora/app/assets/stylesheets/common.scss */
+  .container {
+    width: 80%;
+  }
+}
